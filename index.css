@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     background-color: #0C1844;
     text-align: center;
     font-size: 6vh;
@@ -8,10 +7,16 @@ body {
 .pageGrid {
     display: flex;
     justify-content: space-between;
-    align-self: center;
 }
 
-.container {
+.scoreContainer {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.img {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -52,15 +57,15 @@ button {
     background-color: #0C1844;
     color: #FF6969;
     font-size: 5vh;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 img {
-    
     border-width: 5px;
     border-color: #FF6969;
     border-radius: 30px;
     background-color: transparent;
     margin: auto;
     max-width: 30%;
+    padding: 0%;
 }

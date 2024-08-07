@@ -3,33 +3,29 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-    <div class="pageGrid">
-        <div class="container">
-            <div>
+        <div class="pageGrid">
+            <div class="img">
                 <img src = "images//7.png"> 
             </div>
-            <div>
+            <div class="scoreContainer">
                 <h3>HOME</h3>
                 <h1 id="home-score"> 0 </h1>
                 <button onclick="add1PointH()">+1</button>
                 <button onclick="add2PointsH()">+2</button>
                 <button onclick="add3PointsH()">+3</button>
             </div>
-        </div>
 
-        <div class="container">
-            <div>
+            <div class="scoreContainer">
                 <h3>GUEST</h3>
                 <h1 id="guest-score"> 0 </h1>
                 <button onclick="add1PointG()"">+1</button>
                 <button onclick="add2PointsG()">+2</button>
                 <button onclick="add3PointsG()">+3</button>
             </div>
-            <div>
+            <div class="img">
                 <img src = "images/8.png">
             </div>
         </div>
-    </div>
         <button onclick="newGame()"> NEW GAME </button>
         <script src="index.js"></script>
     </body>
