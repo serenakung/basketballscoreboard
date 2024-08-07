@@ -38,3 +38,10 @@ function add3PointsG(){
     guestScore.textContent = guestCount
     console.log(guestCount)
 }
+
+function newGame(){
+    homeCount = 0
+    homeScore.textContent = homeCount
+    guestCount = 0
+    guestScore.textContent = guestCount
+}

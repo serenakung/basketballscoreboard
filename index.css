@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-color: #1B244A;
     text-align: center;
+    font-size: 6vh;
 }
 
 .container {
@@ -26,20 +27,23 @@ h1 {
     padding-right: 10px;
     padding-left: 10px;
     width: 70px;
-    font-family: score-font;
+    font-family: "scoreFont";
+    margin: auto;
 }
 
 @font-face {
-    font-family: score-font;
-    src: url("/CursedTimerUlil-Aznm.ttf")
+    font-family: "scoreFont";
+    src: url("/CursedTimerUlil-Aznm.ttf");
 }
 
 button {
-    font-family: score-font;
+    font-family: "scoreFont";
     border-color: #9AABD8;
     border-radius: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: #1B244A;
     color: #9AABD8;
+    font-size: 5vh;
+    margin-top: 20px;
 }
